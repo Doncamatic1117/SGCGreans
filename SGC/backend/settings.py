@@ -170,7 +170,7 @@ EMAIL_HOST_USER = 'reportesreminderitcg@gmail.com'
 # with open('./mail.txt') as i:
 #     EMAIL_HOST_PASSWORD = i.read().strip()
 
-EMAIL_HOST_PASSWORD = os.environ['mail'].strip()
+EMAIL_HOST_PASSWORD = ''.join([random.SystemRandom().choice(chars) for i in range(10)])
 
 CELERY_BEAT_SCHEDULE = {
     'enviarmail': {
