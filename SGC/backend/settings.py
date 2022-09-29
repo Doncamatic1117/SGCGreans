@@ -158,6 +158,8 @@ CORS_ORIGIN_WHITELIST = [
     'https://sgcgreans-production.up.railway.app',
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://sgcgreans-production.up.railway.app']
+
 CELERY_BROKER_URL = 'amqp://localhost'
 CELERY_TIMEZONE = 'America/Mexico_City'
 
