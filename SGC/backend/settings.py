@@ -154,7 +154,8 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000'
+    'http://localhost:3000',
+    'https://sgcgreans-production.up.railway.app',
 ]
 
 CELERY_BROKER_URL = 'amqp://localhost'
