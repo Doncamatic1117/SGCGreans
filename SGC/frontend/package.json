@@ -40,6 +40,6 @@
   },
   "devDependencies": {
     "sass-loader": "^13.0.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1" 
   }
 }
